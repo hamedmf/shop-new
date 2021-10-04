@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.menu {
+  display: block;
+}
+
+.log {
+  display: flex;
+  justify-content: flex-end;
+}
+.logoImg {
+  height: 3rem;
+}
+
+.activekey {
+  background-color: brown;
+}
+
+.cardi img {
+  height: 3rem;
+}
+.searchcart {
+  flex: 80%;
+  height: 100%;
+}
+.search input {
+  text-align: center;
+}
